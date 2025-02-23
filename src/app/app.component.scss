@@ -1,0 +1,40 @@
+.home-body {
+  @apply h-screen;
+}
+
+.section1 {
+  background-color: black;
+  // background-image: url("../../public/SilverBg.jpg");
+  // background-repeat: no-repeat;
+  // background-position: center;
+  color: white;
+  width: 100%;
+  height: 450px;
+  @apply flex justify-between items-center px-20;
+
+  .img-bg {
+    // height: 100%;
+    // max-width: 100%;
+    // height: auto;
+  }
+
+  .section1-right {
+    // @apply flex flex-col content-end;
+    // @apply grid grid-flow-row;
+    @apply w-1/3 text-end;
+
+    .section1-right-title {
+      font-family: cursive;
+      @apply mt-10 mb-2 text-4xl;
+    }
+
+    .section1-right-info {
+      font-family: cursive;
+    }
+  }
+}
+
+.section2 {
+  background-color: black;
+  color: white;
+}
