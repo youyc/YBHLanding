@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "app/@config/app_config_variable.scss";
+
+:root::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable-content {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.main {
+  @apply h-screen; //w-screen
+}
+
+body {
+  display: block;
+  margin: 0 !important;
+}

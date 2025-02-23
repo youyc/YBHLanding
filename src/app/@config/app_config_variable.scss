@@ -1,0 +1,17 @@
+//Component: top-toolbar Start
+@function top-toolbar($name) {
+  @return var(--top-toolbar-#{$name});
+}
+
+:root {
+  --top-toolbar-bg: black;
+  --top-toolbar-text: #efa80e;
+  --top-toolbar-act1-btn: #efa80e;
+  --top-toolbar-act2-btn: black;
+}
+
+// $top-toolbar-bg: black;
+// $top-toolbar-text: black;
+// $top-toolbar-act1-btn: black;
+// $top-toolbar-act2-btn: black;
+//Component: top-toolbar End

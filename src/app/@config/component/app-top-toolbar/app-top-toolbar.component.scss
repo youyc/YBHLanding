@@ -1,0 +1,8 @@
+@import "../../app_config_variable.scss";
+
+.app-top-toolbar-btn {
+  background-color: top-toolbar(bg);
+  color: top-toolbar(text);
+  border-color: top-toolbar(act1-btn);
+  @apply p-1 border-2 rounded-full;
+}

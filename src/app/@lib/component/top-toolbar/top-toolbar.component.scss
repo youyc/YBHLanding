@@ -1,0 +1,26 @@
+@import "../../../@config/app_config_variable.scss";
+
+.top-toolbar {
+  // background-color: var(--xxx);
+  background-color: top-toolbar(bg);
+  @apply p-4; //bg-slate-50
+
+  .top-toolbar-body {
+    @apply grid grid-cols-3 justify-between items-center;
+
+    .top-toolbar-body-left {
+      color: top-toolbar(text);
+      @apply flex gap-2;
+    }
+
+    .top-toolbar-body-center {
+      color: top-toolbar(text);
+      @apply flex justify-center gap-2;
+    }
+
+    .top-toolbar-body-right {
+      color: top-toolbar(text);
+      @apply flex justify-end items-center gap-2;
+    }
+  }
+}
